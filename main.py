@@ -1,7 +1,8 @@
+import os
 import telebot
 from flask import Flask, request
 
-TOKEN = 'твой_токен_бота'
+TOKEN = os.environ.get("TOKEN")
 bot = telebot.TeleBot(TOKEN, parse_mode="Markdown")
 app = Flask(__name__)
 
@@ -40,5 +41,5 @@ def index():
 
 if __name__ == "__main__":
     bot.remove_webhook()
-    bot.set_webhook(url="https://ТВОЙ_РЕНДЕР_URL/" + TOKEN)
+    bot.set_webhook(url=f"https://{os.environ.get('RENDER_EXTERNAL_HOSTNAME')}/{TOKEN}")
     app.run(host="0.0.0.0", port=10000)
