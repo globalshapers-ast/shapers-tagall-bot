@@ -19,6 +19,21 @@ users = [
     {"id": 947989741, "name": "alisher"},
     {"id": 422359565, "name": "Aizhan025"},
     {"id": 328952267, "name": "tomikandre"},
+    {"id": 994649505, "name": "TGB4K"},
+    {"id": 618710935, "name": "nurtleutheone"},
+    {"id": 264019397, "name": "Amirlan_N"},
+    {"id": 588439281, "name": "ars_0897"},
+    {"id": 586416121, "name": "beautifulmadnesss"},
+    {"id": 1167703998, "name": "Sansy0tom"},
+    {"id": 979436015, "name": "aber052"},
+    {"id": 1276461016, "name": "aimurellaa"},
+    {"id": 491999714, "name": "assel_00"},
+    {"id": 387258579, "name": "whataboutdayana"},
+    {"id": 607510369, "name": "knb1507"},
+    {"id": 1063503364, "name": "solivagant888"},
+    {"id": 827348149, "name": "sabinaiskakovva"},
+    {"id": 429250518, "name": "destruqt1on"},
+    {"id": 291488787, "name": "malika1734"},
 ]
 
 @bot.message_handler(commands=['start'])
