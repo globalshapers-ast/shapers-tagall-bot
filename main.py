@@ -23,7 +23,6 @@ users = [
     {"id": 618710935, "name": "nurtleutheone"},
     {"id": 264019397, "name": "Amirlan_N"},
     {"id": 588439281, "name": "ars_0897"},
-    {"id": 586416121, "name": "beautifulmadnesss"},
     {"id": 1167703998, "name": "Sansy0tom"},
     {"id": 979436015, "name": "aber052"},
     {"id": 1276461016, "name": "aimurellaa"},
